@@ -40,6 +40,20 @@
     },
     "url": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "url_text": {
+      "type": "string",
+      "required": true
     }
   }
 }
