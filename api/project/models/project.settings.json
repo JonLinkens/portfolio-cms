@@ -54,6 +54,14 @@
     "url_text": {
       "type": "string",
       "required": true
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Blue",
+        "Green"
+      ]
     }
   }
 }
