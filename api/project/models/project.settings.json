@@ -55,13 +55,8 @@
       "type": "string",
       "required": true
     },
-    "Colour": {
-      "type": "enumeration",
-      "enum": [
-        "Red",
-        "Blue",
-        "Green"
-      ]
+    "colour": {
+      "type": "string"
     }
   }
 }
