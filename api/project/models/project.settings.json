@@ -53,7 +53,7 @@
     },
     "url_text": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "colour": {
       "type": "string",
